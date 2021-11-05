@@ -12,6 +12,7 @@ export default function Pokemones({pokemones}) {
     console.log(pokemones)
     return (
       <div>
+        <p>App de Pokemones</p>
         <ul>
           {pokemones.map(pokemon => <Pokemon pokemon={pokemon} key={pokemon.name} />)}
         </ul>
